@@ -1,0 +1,259 @@
+@media screen and (max-width: 750px) {
+  header section .checkbtn {
+    display: block;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  header section {
+    width: 85%;
+  }
+
+  header section .nav-items {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(49, 48, 48, 0.5);
+    top: 0;
+    right: -100%;
+    transition: all 0.5s;
+    z-index: 10;
+  }
+
+  header section .nav-items .checkbtn {
+    float: right;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 100;
+  }
+
+  header section .nav-items .checkbtn i {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    float: right;
+  }
+
+  header section .nav-items ul {
+    width: 95%;
+    height: 100%;
+    flex-direction: column;
+    background-color: white;
+    padding: 0;
+    float: right;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    right: 0;
+    gap: 3rem;
+    margin: 0;
+  }
+
+  header section .nav-items ul li {
+    padding-left: 3rem;
+  }
+
+  header section .nav-items ul li a {
+    font-size: 1.5rem;
+    color: var(#af9453);
+  }
+
+  header section .nav-items ul li a:hover,
+  header section .nav-items ul li a.active {
+    background-color: transparent;
+    color: gray;
+  }
+
+  header section #check:checked ~ .nav-items {
+    right: 0px;
+  }
+
+  .anm {
+    display: none;
+  }
+
+  header b {
+    display: none;
+  }
+
+  main .banner aside {
+    width: 100%;
+  }
+
+  main .banner aside div h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10rem 3rem;
+    letter-spacing: 0.4rem;
+  }
+
+  main .ad {
+    grid-template-columns: 1fr;
+    width: 100%;
+    row-gap: 2rem;
+  }
+
+  main .ad .photo {
+    width: 100%;
+    height: 25rem;
+  }
+
+  main .text div {
+    width: 100%;
+  }
+
+  main .s3 .gal .frame {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  main .service .d2 .bannerd .oned {
+    grid-template-columns: 1fr;
+    width: 90%;
+    padding-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  main .about {
+    row-gap: 6rem;
+  }
+  main .about .bannera {
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100vh;
+    row-gap: 6rem;
+    margin-bottom: 5rem;
+  }
+
+  main .about .bannera .left {
+    width: 100%;
+    height: 28rem;
+  }
+
+  main .about .bannera .right .auch {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  main .about .bannera2 {
+    grid-template-columns: 1fr;
+    width: 100%;
+    display: none;
+  }
+
+  main .about .bannera2 .right {
+    width: 15rem;
+    height: 40rem;
+  }
+
+  main .about .bannera2 .left {
+    width: 100%;
+  }
+
+  main .about .bannera3 {
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100vh;
+    row-gap: 16rem;
+  }
+
+  main .about .bannera3 .left {
+    width: 100%;
+    height: 28rem;
+    margin-top: 8rem;
+  }
+
+  main .about .bannera3 .right .auch {
+    width: 100%;
+    margin-bottom: 38rem;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  main .gal .vaime .pic {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  main .gal .cards .line {
+    grid-template-columns: 1fr;
+    width: 100%;
+    row-gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  main .contact .bannerc {
+    grid-template-columns: 1fr;
+    width: 85%;
+    padding-right: 1rem;
+    row-gap: 4rem;
+  }
+
+  main .contact .bannerc .left {
+    width: 100%;
+  }
+
+  main .contact .bannerc .right {
+    width: 100%;
+  }
+
+  main .contact .bannerc2 {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  main .contact .bannerc2 .left {
+    width: 90%;
+    display: none;
+  }
+
+  main .contact .bannerc2 .right {
+    width: 90%;
+    display: none;
+  }
+
+  main .contact .bannerc .right div .oho .name {
+    width: 10rem;
+  }
+
+  main .contact .bannerc .right div .oho h1 {
+    width: 90%;
+  }
+
+  main .contact .bannerc .right div .oho .mail {
+    width: 21rem;
+  }
+
+  main .contact .bannerc .right div .oho .message {
+    width: 21rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  footer {
+    width: 100%;
+  }
+
+  footer section {
+    grid-template-columns: 1fr;
+    width: 90%;
+    height: 40rem;
+  }
+
+  .chat {
+    display: none;
+  }
+
+  .termin {
+    display: none;
+  }
+}
